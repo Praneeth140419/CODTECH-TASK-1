@@ -42,4 +42,5 @@ Project Developer:
 1)python programming language.
 
 **Result:**
-The result of this project is a simple calculator that allows users to perform basic arithmetic operations interactively. The calculator guides the user through selecting an operation, entering the required numbers, and displays the result. It handles invalid inputs and errors gracefully, providing a  user-friendly experience.
+The result of this project is a simple calculator that allows users to perform basic arithmetic operations interactively. The calculator guides the user through selecting an operation, entering the required numbers, and displays the result. It handles invalid inputs and errors gracefully, providing a  user-friendly experience.![Screenshot 2024-06-23 164639](https://github.com/Praneeth140419/CODTECH-TASK-1/assets/172062525/d606f314-b33f-48a2-adb6-09258214a82b)
+

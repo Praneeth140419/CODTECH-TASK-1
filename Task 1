@@ -1,0 +1,44 @@
+def calculator():
+    try:
+        print("-----------------------------------------")
+        print("| Press 1 for Addition                  |")
+        print("| Press 2 for Subtraction               |")
+        print("| Press 3 for Multiplication            |")
+        print("| Press 4 for Division                  |")
+        print("-----------------------------------------")
+        x = int(input("Please Enter the above Required option: "))
+        choice = [1, 2, 3, 4]
+
+        if x in choice:
+            print("-----------------------------------------")
+            num_1 = int(input("Enter the First Number: "))
+            num_2 = int(input("Enter the second number: "))
+            print("-----------------------------------------")
+            if x == 1:
+                def add(x, y):
+                    return x + y
+                print(f"Addition of two numbers is: {add(num_1, num_2)}")
+            elif x == 2:
+                def subtract(x, y):
+                    return x - y
+                print(f"Subtraction of two numbers is: {subtract(num_1, num_2)}")
+            elif x == 3:
+                def multiply(x, y):
+                    return x * y
+                print(f"Multiplication of two numbers is: {multiply(num_1, num_2)}")
+            elif x == 4:
+                if num_2 == 0:
+                    print("Number cannot be divided by Zero.")
+                else:
+                    def divide(x, y):
+                        return x / y
+                    print(f"Division of two numbers is: {divide(num_1, num_2)}")
+        else:
+            print("-----------------------------------------")
+            print("Please choose the correct option from the above.")
+    except ValueError:
+        print("Invalid input. Please enter a number.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+calculator()
